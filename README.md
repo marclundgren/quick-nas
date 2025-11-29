@@ -6,17 +6,6 @@ A simple, beautiful, and containerized file sharing system for quick and easy fi
 ![Node.js](https://img.shields.io/badge/Node.js-18+-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
-## Features
-
-✨ **Simple & Intuitive** - Clean, modern web interface  
-📤 **Drag & Drop Upload** - Upload files by dragging or using file picker  
-📥 **Easy Downloads** - One-click file downloads  
-🗑️ **File Management** - Delete files you no longer need  
-🔌 **Plugin System** - Extend functionality with plugins  
-🐳 **Fully Containerized** - Run anywhere with Docker  
-💾 **Persistent Storage** - Files stored on your host system  
-🎨 **Beautiful UI** - Premium dark mode design with smooth animations
-
 ## Quick Start
 
 ### Using Docker Compose (Recommended)

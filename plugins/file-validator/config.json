@@ -1,0 +1,11 @@
+{
+    "enabled": true,
+    "mode": "blacklist",
+    "allowedExtensions": [],
+    "blockedExtensions": [
+        "exe",
+        "bat",
+        "sh",
+        "cmd"
+    ]
+}

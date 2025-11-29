@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  quick-nas:
+    build: .
+    container_name: quick-nas
+    ports:
+      - "3000:3000"
+    volumes:
+      # Data storage - change the path on the left to your desired location
+      - ./data:/data
+      # Plugins - mount for easy plugin development without rebuilding
+      - ./plugins:/app/plugins
+      # Public files - mount for live frontend updates
+      - ./public:/app/public
+    environment:
+      - PORT=3000
+      - UPLOAD_DIR=/data
+    restart: unless-stopped
